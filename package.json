@@ -14,7 +14,13 @@
     "cartodb",
     "openlayers"
   ],
-  "author": "Jesse Hattabaugh <jesse.hattabaugh@planet.com>",
+  "author": "Alessandro Isaacs <alessandro.isaacs@planet.com>",
+  "contributors": [
+    {
+      "name": "Jesse Hattabaugh",
+      "email": "jesse.hattabaugh@planet.com"
+    }
+  ],
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/planetlabs/pl-cartodb-source/issues"
