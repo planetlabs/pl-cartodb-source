@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/planetlabs/pl-cartodb-source/issues"
   },
-  "homepage": "https://github.com/planetlabs/pl-cartodb-source#readme"
+  "homepage": "https://github.com/planetlabs/pl-cartodb-source#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "openlayers": "^3.9.0"
+  }
 }
