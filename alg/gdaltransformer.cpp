@@ -4502,7 +4502,9 @@ void *GDALCreateTransformer(const char *pszMethod,
         return nullptr;
     }
 
-    return psInfo->pfnDeserializeFunc( psTree );
+    void *pRet = psInfo->pfnDeserializeFunc( psTree );
+    CPLDestroyXMLNode(psTree);
+    return pRet;
 }
 
 /************************************************************************/
